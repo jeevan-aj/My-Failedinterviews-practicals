@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.outerContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  gap: 5px;
+}
+
+.innerCards{
+  border: 1px solid black;
+  padding: 50px;
+}
+
+.nextButton{
+  clip-path: polygon(100% 49%, 0 0, 0 100%);
+}
+.previousButton{
+  clip-path: polygon(100% 100%, 100% 0, 0 53%);
+}
+
+
+.nextButton,.previousButton{
+
+  background-color: blue;
+
+  color: white;
+  width: 100px;
+  height: 100px;
+
+}
